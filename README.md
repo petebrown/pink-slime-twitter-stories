@@ -8,4 +8,4 @@ It then uses SpaCy to identify people mentioned in headlines.
 
 It also looks for news articles that have been automatically created from politicians' tweets. On August 7, this produced records for 12,036 articles.
 
-A short write-up can be foudn [here](https://petebrown.github.io/pink-slime-twitter-stories/)
+A short write-up can be found [here](https://petebrown.github.io/pink-slime-twitter-stories/)
