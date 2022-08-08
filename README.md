@@ -2,7 +2,7 @@
 - Named Entity Recognition: SpaCy
 - Data analysis: Pandas
 
-This notebook scrapes the homepages of every site in the MM networks for Arizona, Florida, Georgia, Ohio and West Virginia. On August 7, this produced records for 6,722 articles.
+This [notebook](https://github.com/petebrown/pink-slime-twitter-stories/blob/main/docs/notebook/pink-slime-people-and-articles.ipynb) scrapes the homepages of every site in the MM networks for Arizona, Florida, Georgia, Ohio and West Virginia. On August 7, this produced records for 6,722 articles.
 
 It then uses SpaCy to identify people mentioned in headlines.
 
