@@ -1,21 +1,9 @@
-Scraping: BeautifulSoup and Requests
-Named Entity Recognition: SpaCy
-Data analysis: Pandas
+- Scraping: BeautifulSoup and Requests
+- Named Entity Recognition: SpaCy
+- Data analysis: Pandas
 
-## Scrape homepages and identify frequently mentioned politicians
+This notebook scrapes the homepages of every site in the MM networks for Arizona, Florida, Georgia, Ohio and West Virginia. On August 7, this produced records for 6,722 articles.
 
-- Scrape the homepage in each site in the networks for Arizona, Florida, Georgia, Ohio and West Virginia
+It then uses SpaCy to identify people mentioned in headlines.
 
-- Identify the names of people mentioned in headlines.
-
-- Create value counts of people mentioned on each homepage.
-
-## Scrape Twitter stories for politicians mentioned on homepage
-
-- Get URL of example story
-
-- Pull out URL of pages where politician is tagged
-
-- Scrape every page of results
-
-- Get value counts of (i) number of Twitter articles by site and (ii) number of Twitter articles by politician
+It also looks for news articles that have been automatically created from politicians' tweets. On August 7, this produced records for 12,036 articles.
